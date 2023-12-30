@@ -39,6 +39,7 @@ header #nav-inicio .list a {
   font-size: 14px;
   font-weight: 500;
   padding:5px;
+  margin: 10px;
   border-radius: 3px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.479);
   
@@ -50,18 +51,28 @@ header #nav-inicio .list a {
 }
 
 .titulo-topo {
+  
   font-size: 35pt;
   font-weight: 700;
-  margin-top: 60px;
-  margin-bottom:  30px;
+  margin-top: 50px;
+  margin-bottom:  20px;
   color:#FA489E;
 }
 
 .subtitulo {
   font-size:16pt ;
   font-weight:200;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
+
+ .foto-topo .img-topo {
+  display:flex;
+  justify-content:space-between;
+  height: 300px;
+  border-radius: 50%;
+}
+
 .paragrafo {
   text-align: justify;
 }
