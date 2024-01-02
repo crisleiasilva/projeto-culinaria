@@ -8,8 +8,8 @@
 }
 
 *{
-  margin: 8px;
-  padding:8px;
+  margin: 0px;
+  padding:0px;
 }
 
 body, button , input , textarea , form {
@@ -29,7 +29,7 @@ header #nav-inicio .list {
   align-items: center;
   list-style: none;
   max-width: 1300px;
- 
+  margin-top: 30px;
 }
 
 header #nav-inicio .list a {
@@ -54,8 +54,9 @@ header #nav-inicio .list a {
   font-size: 35pt;
   font-weight: 700;
   margin-top: 50px;
-  margin-bottom:  20px;
+  margin-bottom:20px;
   color:#FA489E;
+  max-width: 1300px;
   
 }
 
@@ -64,6 +65,7 @@ header #nav-inicio .list a {
   font-weight:200;
   margin-top: 40px;
   margin-bottom: 30px;
+  max-width: 1300px;
 }
 
  main #topo {
@@ -87,27 +89,97 @@ main #topo .foto-topo {
   justify-content: space-evenly;
   max-width: 1300px;
   padding: 30px;
-  margin: 0;
-  margin-left: -50px;
-  margin-right: -50px;
+  margin: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
-.msg-meio .titulo2 {
-  text-align:justify;
+.titulo2 {
+  color:white;
+  font-size: 30pt;
+  margin-left:-130px ;
+  margin-right:100px ;
+  margin-bottom: 10px;
+
+}
+
+.botao2 {
+  margin-top: 30px;margin-left:-130px;
+  margin-right:100px;
+  padding: 15px;
 
 }
 
 .paragrafo {
-  text-align: justify;
+  text-align: left;margin-left:-130px ;
+  margin-right:100px ;
+
 }
 
 .botao1 {
   font-size:large;
   font-weight: 400;
   margin-top: 20px;
+  margin-bottom: 40px;
   padding: 18px;
   border:none;
   background-color:#E89D9B;
-  color:white;
+  color:white; 
+}
+#banner-card {
+  background-color: #f0cded;
+}
+
+.container-cards .post-card {
+  display:flexbox;
+  justify-content: space-evenly;
+  padding: 20px;
+  border-radius: 4px;
+  width: 400px;
+  background-color: white;
+  margin-bottom: 20px; 
+}
+ 
+  .figura {
+  width:220px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 10px;
+  display:flex;
+ margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+#banner-intermed .inter {
+  font-size: 30pt;
+  margin-top: 30px;
+  display: flex;
+  justify-content:right;
+  margin-right: 400px ;
   
 }
+  
+.par-inter {
+  display: flex;
+  justify-content: right;
+  margin-right: 100px;
+  text-align: justify;
+}
+ .botao3 {
+  display: flexbox;
+  justify-content: left;
+  margin-left: 770px;
+  padding: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color:#E89D9B;
+  color: white;
+  border: none;
+  
+ } 
+ 
+ 
+ 
+
