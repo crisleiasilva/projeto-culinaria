@@ -132,7 +132,7 @@ main #topo .foto-topo {
 
 .container-cards .post-card {
   display:flexbox;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 20px;
   border-radius: 4px;
   width: 400px;
@@ -140,7 +140,7 @@ main #topo .foto-topo {
   margin-bottom: 20px; 
 }
  
-  .figura {
+  /*.figura {
   width:220px;
   height: 200px;
   border-radius: 50%;
@@ -150,11 +150,11 @@ main #topo .foto-topo {
   align-items: center;
   justify-content: space-between;
  
-}
+}*/
 
 #banner-intermed .inter {
   font-size: 30pt;
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   justify-content:right;
   margin-right: 400px ;
@@ -179,7 +179,14 @@ main #topo .foto-topo {
   border: none;
   
  } 
- 
- 
+ #final .depoimento {
+
+ }
+ #formulario .form-item {
+
+ }
+ .botao-enviar input {
+
+ }
  
 
